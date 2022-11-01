@@ -17,6 +17,6 @@ class SnackList implements Comparable<SnackList>{
     }
     @Override
     public int compareTo(SnackList o) {
-        return 0;
+        return o.price-this.price;
     }
 }
